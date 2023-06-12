@@ -11,6 +11,9 @@
  cd ~/go/pkg/mod
  git clone git@github.com:zouhuigang/google-graphics.git
  mv google-graphics/* ./
+ mv ~/go/pkg/mod/code.google.com ~/go/
+ 
+ go mod tidy
 
 golang程序：
 
