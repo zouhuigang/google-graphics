@@ -6,7 +6,11 @@
 
 使用说明：复制 code.google.com  到 /go/src中，mod需要复制到
 
-cd ~/go/pkg/mod 
+
+```
+ cd ~/go/pkg/mod
+ git clone git@github.com:zouhuigang/google-graphics.git
+ mv google-graphics/* ./
 
 golang程序：
 
